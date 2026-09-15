@@ -29,7 +29,7 @@
         "showRangeSelector": "true",
         "connectSeparatedPoints": "true",
         "labelsDiv": "legdiv0",
-        "dateWindow": [1631727819654.9089, 1789407819654.9089],
+        "dateWindow": [1631809030681.2419, 1789489030681.2419],
         "width": "700",
         "height": "300"
       },
@@ -7715,7 +7715,7 @@
         "showRangeSelector": "true",
         "connectSeparatedPoints": "true",
         "labelsDiv": "legdiv1",
-        "dateWindow": [1631727828179.8225, 1789407828179.8225],
+        "dateWindow": [1631809038441.7837, 1789489038441.7837],
         "width": "700",
         "height": "300"
       },
@@ -16427,7 +16427,7 @@
         "showRangeSelector": "true",
         "connectSeparatedPoints": "true",
         "labelsDiv": "legdiv2",
-        "dateWindow": [1781631832066.0662, 1789407832066.0662],
+        "dateWindow": [1781713042923.4578, 1789489042923.4578],
         "width": "700",
         "height": "300"
       },
@@ -16452,9 +16452,9 @@
         "1967-01-01T00:00:00Z"
       ],
       "maxT": [
-        "2026-09-13T00:00:00Z",
-        "2026-09-13T00:00:00Z",
-        "2026-09-13T00:00:00Z"
+        "2026-09-14T00:00:00Z",
+        "2026-09-14T00:00:00Z",
+        "2026-09-14T00:00:00Z"
       ],
       "inst": [
         "NOAA/SWFSC/ERD",
@@ -16981,6 +16981,12 @@
           "-18.483307",
           "42.787796",
           "152.46872"
+        ],
+        [
+          "2026-09-14T00:00:00Z",
+          "-6.0428686",
+          "196.81854",
+          "122.913155"
         ]
       ]
     },
@@ -17010,7 +17016,7 @@
         "showRangeSelector": "true",
         "connectSeparatedPoints": "true",
         "labelsDiv": "legdiv3",
-        "dateWindow": [1631727837318.1526, 1789407837318.1526],
+        "dateWindow": [1631809048405.9495, 1789489048405.9495],
         "width": "700",
         "height": "300"
       },
@@ -21010,7 +21016,7 @@
         "showRangeSelector": "true",
         "connectSeparatedPoints": "true",
         "labelsDiv": "legdiv4",
-        "dateWindow": [1631727863580.2166, 1789407863580.2166],
+        "dateWindow": [1631809081489.447, 1789489081489.447],
         "width": "700",
         "height": "300"
       },
