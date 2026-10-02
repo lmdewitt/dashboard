@@ -12,7 +12,7 @@
         "Extratropical-based Northern Oscillation Index"
       ],
       "options": {
-        "labels": ["Time (UTC)", "Pacific Decadal Oscillation Index", "Oceanic Nino Index (degree_C)", "North Pacific High (10^6 km^2)", "North Pacific Gyre Oscillation Index (Normalized)", "Extratropical-based Northern Oscillation Index (mb)"],
+        "labels": ["Time (UTC)", "Pacific Decadal Oscillation Index (Normalized)", "Oceanic Nino Index (degree_C)", "North Pacific High (10^6 km^2)", "North Pacific Gyre Oscillation Index (Normalized)", "Extratropical-based Northern Oscillation Index (mb)"],
         "ylabel": "",
         "visibility": [true, true, true, true, true],
         "colors": ["#4da82b", "#1f96a8", "#1e2ad4", "#c2291b", "#ed9f08"],
@@ -29,7 +29,7 @@
         "showRangeSelector": "true",
         "connectSeparatedPoints": "true",
         "labelsDiv": "legdiv0",
-        "dateWindow": [1633198778807.2424, 1790878778807.2424],
+        "dateWindow": [1633282314686.1914, 1790962314686.1914],
         "width": "700",
         "height": "300"
       },
@@ -69,21 +69,21 @@
         "2026-08-16T12:00:00Z"
       ],
       "inst": [
-        "",
+        "NOAA SWFSC/FED",
         "NOAA, Climate Prediction Center (CPC)",
         "NOAA SWFSC/ERD",
         "Georgia Institute of Technology (GT)",
         "NOAA, NMPFS, SWFSC, Environmental Research Division (ERD)"
       ],
       "summary": [
-        "",
+        "PDO index is defined as the projections of the ERSST V5 monthly SSTA onto the 1st EOF pattern of North Pacific 20N-60N.  1900-1993 DATA from ERSST V3b is used to derived the climatology and the 1st EOF pattern. Reference: Wen, C., A. Kumar, and Y. Xue, 2014: Factors contributing to uncertainty in Pacific decadal oscillation index. Geophys. Res. Lett., 41, 7980-7986, doi:<a href=\"https://doi.org/10.1002/2014GL061992\" target=\"_blank\">https://doi.org/10.1002/2014GL061992<\/a>  ERSST.V5 : Huang, B., Peter W. Thorne, et. al, 2017: Extended Reconstructed Sea Surface Temperature version 5 (ERSSTv5), Upgrades, validations, and intercomparisons. J. Climate Smith, T. M., Reynolds, R. W., Peterson, T. C., and Lawrimore, J. (2008), Improvements to NOAA's historical merged land-ocean surface temperature analysis (1880-2006), J. Clim., 21( 10), 2283-2296. *Note: 2023-03-10 UW-JISAO PDO is not longer being updated. This PDO is now ERSST V5* NA",
         "<a href=\"http://origin.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/ONI_v5.php\" target=\"_blank\">NOAA/CPC<\/a> The ONI is the 3 month running mean of sea surface temperature anomalies in the Nino 3.4 region NA",
         "Variations in large-scale atmospheric forcing influence upwelling dynamics and ecosystem productivity in the California Current System. The area of the North Pacific High (NPH) is characterized by areal extent of the 1020 Pa isobar (Schroeder et al., doi:10.1002/grl.50100). The area of the NPH are calculated from monthly mean sea level pressure (SLP) fields created by the U.S. Navy Fleet Numerical Meterology and Oceanography Center (FNMOC). Monthly SLP data available at <a href=\"https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdlasFnWPr.html\" target=\"_blank\">https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdlasFnWPr.html<\/a>. The area is the areal extent of the 1020 hPa contour for a given month. The NRT ROMS temperature data downloaded from the UCSC website (<a href=\"http://oceanmodeling.ucsc.edu/index.html\" target=\"_blank\">http://oceanmodeling.ucsc.edu/index.html<\/a>) has grid points with 2 m temperature data reported as Not-A-Number, these values are 2 m temperatu. Tdata at these grid points are obtained by extrapolating the data to 2 m depth using the interp1d routine from the Python library scipy.interpolate sub-package.",
         "The  <a href=\"https://www.o3d.org/npgo/data/NPGO.txt\" target=\"_blank\">NPGO<\/a> is calculated from an Empirical Orthogonal Function analysis of sea-surface height in the Northeast Pacific. The NPGO is the second dominant mode. NA",
         "<a href=\"http://upwell.pfeg.noaa.gov/erddap/index.html\" target=\"_blank\">NOAA/ERD<\/a>) The NOI is the sea-level pressure difference between the climatological location of the North Pacific High and Darwin, Australia. The NOI measures teh equatorial and extratropical teleconnections and represents both local and remote climate variability. NA"
       ],
       "units": [
-        "",
+        "Normalized",
         "degree_C",
         "10^6 km^2",
         "Normalized",
@@ -7715,7 +7715,7 @@
         "showRangeSelector": "true",
         "connectSeparatedPoints": "true",
         "labelsDiv": "legdiv1",
-        "dateWindow": [1633198786406.7114, 1790878786406.7114],
+        "dateWindow": [1633282321082.999, 1790962321082.999],
         "width": "700",
         "height": "300"
       },
@@ -16427,7 +16427,7 @@
         "showRangeSelector": "true",
         "connectSeparatedPoints": "true",
         "labelsDiv": "legdiv2",
-        "dateWindow": [1783102790895.8259, 1790878790895.8259],
+        "dateWindow": [1783186324847.4814, 1790962324847.4814],
         "width": "700",
         "height": "300"
       },
@@ -16452,9 +16452,9 @@
         "1967-01-01T00:00:00Z"
       ],
       "maxT": [
-        "2026-09-29T00:00:00Z",
-        "2026-09-29T00:00:00Z",
-        "2026-09-29T00:00:00Z"
+        "2026-10-01T00:00:00Z",
+        "2026-10-01T00:00:00Z",
+        "2026-10-01T00:00:00Z"
       ],
       "inst": [
         "NOAA/SWFSC/ERD",
@@ -16472,12 +16472,6 @@
         "m^3/s/100m coastline"
       ],
       "data": [
-        [
-          "2026-07-04T00:00:00Z",
-          "37.601517",
-          "216.92854",
-          "129.74193"
-        ],
         [
           "2026-07-05T00:00:00Z",
           "97.79286",
@@ -16821,166 +16815,10 @@
           "188.4184"
         ],
         [
-          "2026-09-02T00:00:00Z",
-          "-223.60315",
-          "-35.15981",
-          "105.80588"
-        ],
-        [
-          "2026-09-03T00:00:00Z",
-          "-190.59508",
-          "-14.488445",
-          "112.59233"
-        ],
-        [
-          "2026-09-04T00:00:00Z",
-          "-16.37761",
-          "3.3820198",
-          "91.10021"
-        ],
-        [
-          "2026-09-05T00:00:00Z",
-          "-0.32808697",
-          "15.971082",
-          "51.05813"
-        ],
-        [
-          "2026-09-06T00:00:00Z",
-          "6.9783688",
-          "55.704853",
-          "28.867743"
-        ],
-        [
-          "2026-09-07T00:00:00Z",
-          "-4.091495",
-          "117.65478",
-          "33.444115"
-        ],
-        [
-          "2026-09-08T00:00:00Z",
-          "28.166616",
-          "96.70196",
-          "34.09745"
-        ],
-        [
-          "2026-09-09T00:00:00Z",
-          "65.20369",
-          "24.27745",
-          "20.102287"
-        ],
-        [
-          "2026-09-10T00:00:00Z",
-          "48.88645",
-          "87.23005",
-          "51.90291"
-        ],
-        [
-          "2026-09-11T00:00:00Z",
-          "17.823812",
-          "155.75174",
-          "77.63517"
-        ],
-        [
-          "2026-09-13T00:00:00Z",
-          "-18.483307",
-          "42.787796",
-          "152.46872"
-        ],
-        [
-          "2026-09-14T00:00:00Z",
-          "-6.0428686",
-          "196.81854",
-          "122.913155"
-        ],
-        [
-          "2026-09-15T00:00:00Z",
-          "15.919085",
-          "342.56448",
-          "88.384415"
-        ],
-        [
-          "2026-09-16T00:00:00Z",
-          "30.639885",
-          "225.0439",
-          "111.76568"
-        ],
-        [
-          "2026-09-17T00:00:00Z",
-          "44.52773",
-          "44.736828",
-          "95.27162"
-        ],
-        [
-          "2026-09-18T00:00:00Z",
-          "7.3033175",
-          "39.478577",
-          "113.24968"
-        ],
-        [
-          "2026-09-19T00:00:00Z",
-          "8.762108",
-          "188.9287",
-          "94.094124"
-        ],
-        [
-          "2026-09-20T00:00:00Z",
-          "37.264595",
-          "211.232",
-          "113.955696"
-        ],
-        [
-          "2026-09-21T00:00:00Z",
-          "29.565649",
-          "186.23035",
-          "126.21646"
-        ],
-        [
-          "2026-09-22T00:00:00Z",
-          "14.067892",
-          "198.00868",
-          "95.392235"
-        ],
-        [
-          "2026-09-23T00:00:00Z",
-          "0.089756794",
-          "274.1511",
-          "54.32169"
-        ],
-        [
-          "2026-09-24T00:00:00Z",
-          "12.327034",
-          "151.54623",
-          "30.686981"
-        ],
-        [
-          "2026-09-25T00:00:00Z",
-          "-55.08571",
-          "68.58491",
-          "60.00285"
-        ],
-        [
-          "2026-09-26T00:00:00Z",
-          "0.7537543",
-          "186.0864",
-          "48.976097"
-        ],
-        [
-          "2026-09-27T00:00:00Z",
-          "68.5347",
-          "131.19556",
-          "50.112633"
-        ],
-        [
-          "2026-09-28T00:00:00Z",
-          "32.30259",
-          "198.48509",
-          "94.66742"
-        ],
-        [
-          "2026-09-29T00:00:00Z",
-          "-44.209408",
-          "410.9409",
-          "84.03161"
+          "2026-10-01T00:00:00Z",
+          "12.83462",
+          "227.50633",
+          "47.35098"
         ]
       ]
     },
@@ -17010,7 +16848,7 @@
         "showRangeSelector": "true",
         "connectSeparatedPoints": "true",
         "labelsDiv": "legdiv3",
-        "dateWindow": [1633198797019.9548, 1790878797019.9548],
+        "dateWindow": [1633282329170.0972, 1790962329170.0972],
         "width": "700",
         "height": "300"
       },
@@ -21017,7 +20855,7 @@
         "showRangeSelector": "true",
         "connectSeparatedPoints": "true",
         "labelsDiv": "legdiv4",
-        "dateWindow": [1633198828922.9185, 1790878828922.9185],
+        "dateWindow": [1633282353856.6641, 1790962353856.6641],
         "width": "700",
         "height": "300"
       },
