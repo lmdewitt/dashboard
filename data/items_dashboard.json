@@ -29,7 +29,7 @@
         "showRangeSelector": "true",
         "connectSeparatedPoints": "true",
         "labelsDiv": "legdiv0",
-        "dateWindow": [1634059267570.2307, 1791739267570.2307],
+        "dateWindow": [1634158557892.0676, 1791838557892.0676],
         "width": "700",
         "height": "300"
       },
@@ -7715,7 +7715,7 @@
         "showRangeSelector": "true",
         "connectSeparatedPoints": "true",
         "labelsDiv": "legdiv1",
-        "dateWindow": [1634059276691.5679, 1791739276691.5679],
+        "dateWindow": [1634158568692.1699, 1791838568692.1699],
         "width": "700",
         "height": "300"
       },
@@ -16439,7 +16439,7 @@
         "showRangeSelector": "true",
         "connectSeparatedPoints": "true",
         "labelsDiv": "legdiv2",
-        "dateWindow": [1783963281184.7837, 1791739281184.7837],
+        "dateWindow": [1784062573331.5234, 1791838573331.5234],
         "width": "700",
         "height": "300"
       },
@@ -16464,9 +16464,9 @@
         "1967-01-01T00:00:00Z"
       ],
       "maxT": [
-        "2026-10-10T00:00:00Z",
-        "2026-10-10T00:00:00Z",
-        "2026-10-10T00:00:00Z"
+        "2026-10-11T00:00:00Z",
+        "2026-10-11T00:00:00Z",
+        "2026-10-11T00:00:00Z"
       ],
       "inst": [
         "NOAA/SWFSC/ERD",
@@ -16484,12 +16484,6 @@
         "m^3/s/100m coastline"
       ],
       "data": [
-        [
-          "2026-07-14T00:00:00Z",
-          "31.123634",
-          "168.06981",
-          "98.291885"
-        ],
         [
           "2026-07-15T00:00:00Z",
           "34.446663",
@@ -16999,6 +16993,12 @@
           "19.490784",
           "488.4797",
           "70.4036"
+        ],
+        [
+          "2026-10-11T00:00:00Z",
+          "27.134787",
+          "510.7564",
+          "85.35841"
         ]
       ]
     },
@@ -17028,7 +17028,7 @@
         "showRangeSelector": "true",
         "connectSeparatedPoints": "true",
         "labelsDiv": "legdiv3",
-        "dateWindow": [1634059287838.7996, 1791739287838.7996],
+        "dateWindow": [1634158578462.7253, 1791838578462.7253],
         "width": "700",
         "height": "300"
       },
@@ -21035,7 +21035,7 @@
         "showRangeSelector": "true",
         "connectSeparatedPoints": "true",
         "labelsDiv": "legdiv4",
-        "dateWindow": [1634059321111.0623, 1791739321111.0623],
+        "dateWindow": [1634158612368.8538, 1791838612368.8538],
         "width": "700",
         "height": "300"
       },
