@@ -29,7 +29,7 @@
         "showRangeSelector": "true",
         "connectSeparatedPoints": "true",
         "labelsDiv": "legdiv0",
-        "dateWindow": [1636658489762.4709, 1794338489762.4709],
+        "dateWindow": [1636744572506.7036, 1794424572506.7036],
         "width": "700",
         "height": "300"
       },
@@ -7723,7 +7723,7 @@
         "showRangeSelector": "true",
         "connectSeparatedPoints": "true",
         "labelsDiv": "legdiv1",
-        "dateWindow": [1636658509930.3218, 1794338509930.3218],
+        "dateWindow": [1636744582347.0315, 1794424582347.0315],
         "width": "700",
         "height": "300"
       },
@@ -16447,7 +16447,7 @@
         "showRangeSelector": "true",
         "connectSeparatedPoints": "true",
         "labelsDiv": "legdiv2",
-        "dateWindow": [1786562518516.3809, 1794338518516.3809],
+        "dateWindow": [1786648586527.2383, 1794424586527.2383],
         "width": "700",
         "height": "300"
       },
@@ -16472,9 +16472,9 @@
         "1967-01-01T00:00:00Z"
       ],
       "maxT": [
-        "2026-11-09T00:00:00Z",
-        "2026-11-09T00:00:00Z",
-        "2026-11-09T00:00:00Z"
+        "2026-11-10T00:00:00Z",
+        "2026-11-10T00:00:00Z",
+        "2026-11-10T00:00:00Z"
       ],
       "inst": [
         "NOAA/SWFSC/ERD",
@@ -16492,12 +16492,6 @@
         "m^3/s/100m coastline"
       ],
       "data": [
-        [
-          "2026-08-13T00:00:00Z",
-          "42.265728",
-          "274.27936",
-          "126.516106"
-        ],
         [
           "2026-08-14T00:00:00Z",
           "26.06567",
@@ -17013,6 +17007,12 @@
           "-126.4289",
           "-4.4262004",
           "1.2420946"
+        ],
+        [
+          "2026-11-10T00:00:00Z",
+          "-249.40465",
+          "-3.5478032",
+          "1.2285668"
         ]
       ]
     },
@@ -17042,7 +17042,7 @@
         "showRangeSelector": "true",
         "connectSeparatedPoints": "true",
         "labelsDiv": "legdiv3",
-        "dateWindow": [1636658526273.1873, 1794338526273.1873],
+        "dateWindow": [1636744591811.0295, 1794424591811.0295],
         "width": "700",
         "height": "300"
       },
@@ -21033,7 +21033,7 @@
       ],
       "options": {
         "y2label": "Max Area",
-        "labels": ["Time (UTC)", "Maximum Intensity", "Heatwave cover (%)", "Maximum Area (km^2)"],
+        "labels": ["Time (UTC)", "Maximum Intensity (STDEV's from normal)", "Heatwave cover (%)", "Maximum Area (km^2)"],
         "ylabel": "Max Intensity or Cover",
         "visibility": [true, true, true],
         "colors": ["#4da82b", "#1f96a8", "#1e2ad4"],
@@ -21056,7 +21056,7 @@
         "showRangeSelector": "true",
         "connectSeparatedPoints": "true",
         "labelsDiv": "legdiv4",
-        "dateWindow": [1636658623364.2019, 1794338623364.2019],
+        "dateWindow": [1636744614006.282, 1794424614006.282],
         "width": "700",
         "height": "300"
       },
@@ -21086,17 +21086,17 @@
         "2026-09-18T00:00:00Z"
       ],
       "inst": [
-        "",
+        "NOAA/SWFSC/ERD",
         "NOAA/SWFSC/ERD",
         "NOAA/SWFSC/ERD"
       ],
       "summary": [
-        "",
+        "Marine heatwaves, or MHWs, occur when ocean temperatures are much warmer than usual for an extended period of time; they are specifically defined by differences in expected temperatures for the location and time of year. MHWs are a growing field of study worldwide because of their effects on ecosystem structure, biodiversity, and regional economies. Developed by oceanographers from NOAA Fisheries' Southwest Fisheries Science Center as an experimental tool for natural resource managers, the California Current MHW Tracker is a program designed to understand, describe, and provide a historical context for the 2014-16 blob. It also produces a range of indices that could help forecast or predict future MHWs expected to impact our coast. NA",
         "Marine heatwaves, or MHWs, occur when ocean temperatures are much warmer than usual for an extended period of time; they are specifically defined by differences in expected temperatures for the location and time of year. MHWs are a growing field of study worldwide because of their effects on ecosystem structure, biodiversity, and regional economies. Developed by oceanographers from NOAA Fisheries' Southwest Fisheries Science Center as an experimental tool for natural resource managers, the California Current MHW Tracker is a program designed to understand, describe, and provide a historical context for the 2014-16 blob. It also produces a range of indices that could help forecast or predict future MHWs expected to impact our coast. NA",
         "Marine heatwaves, or MHWs, occur when ocean temperatures are much warmer than usual for an extended period of time; they are specifically defined by differences in expected temperatures for the location and time of year. MHWs are a growing field of study worldwide because of their effects on ecosystem structure, biodiversity, and regional economies. Developed by oceanographers from NOAA Fisheries' Southwest Fisheries Science Center as an experimental tool for natural resource managers, the California Current MHW Tracker is a program designed to understand, describe, and provide a historical context for the 2014-16 blob. It also produces a range of indices that could help forecast or predict future MHWs expected to impact our coast. NA"
       ],
       "units": [
-        "",
+        "STDEV's from normal",
         "%",
         "km^2"
       ],
